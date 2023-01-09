@@ -1,41 +1,31 @@
-import React from 'react';
-import {
-  ChakraProvider,
-  Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  theme,
-} from '@chakra-ui/react';
-import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { Logo } from './Logo';
+import React, { useEffect } from 'react';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
+import Navbar from './components/Navbar';
+import "./components/main.css";
+import Hero from './components/Hero';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Projects from './components/Projects';
+import Footer from './components/Footer';
+
+
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+    });
+    AOS.refresh();
+  }, []);
   return (
-    <ChakraProvider theme={theme}>
-      <Box textAlign="center" fontSize="xl">
-        <Grid minH="100vh" p={3}>
-          <ColorModeSwitcher justifySelf="flex-end" />
-          <VStack spacing={8}>
-            <Logo h="40vmin" pointerEvents="none" />
-            <Text>
-              Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
-            </Text>
-            <Link
-              color="teal.500"
-              href="https://chakra-ui.com"
-              fontSize="2xl"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn Chakra
-            </Link>
-          </VStack>
-        </Grid>
-      </Box>
-    </ChakraProvider>
+
+    <>
+      <Navbar />
+      <Hero />
+      <Projects />
+      <Footer />
+    </>
   );
 }
 

@@ -1,0 +1,109 @@
+body {
+    background: rgb(35, 35, 35) !important;
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='3000' height='3000' preserveAspectRatio='none' viewBox='0 0 3000 3000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1058%26quot%3b)' fill='none'%3e%3crect width='3000' height='3000' x='0' y='0' fill='rgba(35%2c 35%2c 35%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c1208.608C227.438%2c1177.484%2c433.31%2c1095.405%2c640.631%2c996.842C877.472%2c884.244%2c1165.492%2c819.249%2c1296.652%2c592.161C1429.967%2c361.343%2c1378.431%2c70.724%2c1326.54%2c-190.728C1276.687%2c-441.909%2c1160.513%2c-667.502%2c1006.097%2c-871.788C842.745%2c-1087.896%2c680.755%2c-1371.813%2c411.468%2c-1401.33C138.231%2c-1431.28%2c-39.415%2c-1108.081%2c-297.951%2c-1014.727C-532.905%2c-929.888%2c-827.037%2c-1042.299%2c-1020.496%2c-884.265C-1219.069%2c-722.053%2c-1289.939%2c-443.946%2c-1309.633%2c-188.297C-1328.62%2c58.169%2c-1219.326%2c285.451%2c-1128.311%2c515.282C-1032.369%2c757.554%2c-986.189%2c1052.661%2c-764.177%2c1189.083C-542.592%2c1325.243%2c-257.675%2c1243.87%2c0%2c1208.608' fill='%231b1b1b'%3e%3c/path%3e%3cpath d='M3000 4205.156C3240.008 4209.403 3488.5 4203.898 3694.476 4080.626 3903.556 3955.497 4036.178 3741.014 4142.152 3521.603 4249.946 3298.422 4327.817 3059.044 4307.184 2812.055 4285.808 2556.18 4219.856 2278.87 4024.423 2112.333 3834.114 1950.163 3554.911 1979.62 3305.755 1958.696 3102.192 1941.601 2899.961 1935.01 2706.868 2001.683 2519.936 2066.228 2361.98 2185.608 2227.812 2330.8959999999997 2090.214 2479.898 1962.921 2646.102 1927.376 2845.78 1891.242 3048.766 1966.06 3246.994 2029.836 3443.059 2101.2870000000003 3662.7200000000003 2139.493 3913.635 2321.141 4056.325 2507.082 4202.388 2763.587 4200.973 3000 4205.156' fill='%232b2b2b'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1058'%3e%3crect width='3000' height='3000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e") !important;
+    /* background-repeat: no-repeat !important; */
+    scroll-behavior: smooth;
+    background-attachment: fixed !important;
+    text-decoration: none;
+
+
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #9c9dff 0%,
+            #5E17EB 29%,
+            #6a13ff 67%,
+            #ffa5a5 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    /* font-size: 190px; */
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+
+
+}
+
+.nav-item .nav-link {
+    color: white;
+}
+
+.nav-item .nav-link:hover {
+    color: #692ae7 !important;
+}
+
+.emailme {
+    color: white !important;
+}
+
+.emailme:hover {
+    color: #5E17EB !important;
+
+}
+
+.hero-me img {
+    border-radius: 100%;
+    height: 400px;
+    border: double #af8ff1;
+    box-shadow: 0px -3px 26px -10px #af8ff1;
+
+}
+
+.hero-me h1 {
+    font-size: 65px !important;
+    color: white;
+    margin-top: 100px;
+    font-weight: 400;
+}
+
+.hero-me p {
+    color: gray;
+    font-size: 21px;
+}
+
+.hero-me small {
+    font-size: 21px;
+    color: white;
+}
+
+.projectsme {
+    height: auto;
+}
+
+.projectsme h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.projectsme img {
+    height: 150px;
+    border-radius: 10px;
+
+}
+
+.projectsme .col-sm-3 .card {
+    backdrop-filter: blur(5px) !important;
+    background-color: rgba(60, 60, 60, 0.383) !important;
+    color: white !important;
+    transition: .2s;
+    object-fit: contain;
+}
+
+.projectsme .col-sm-3 .card:hover {
+    box-shadow: 5px 5px 5px #0000006a;
+
+}
