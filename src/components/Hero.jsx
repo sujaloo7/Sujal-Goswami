@@ -18,7 +18,7 @@ const Hero = () => {
                 <div className="container mt-5 hero-me px-5" data-aos="fade-in">
                     <div className="row">
                         <div className="col-sm-6  mt-5">
-                            <h1 >Hi, I'm Sujal</h1>
+                            <h1>👋Hi, I'm Sujal</h1>
                             <p className='mb-4'>Frontend Developer</p>
                             <small className=''>Through constant practice & learning, I produce<br></br> aesthetic software to an extremely high standard.</small>
                         </div>

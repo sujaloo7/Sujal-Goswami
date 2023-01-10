@@ -64,7 +64,7 @@ body {
 }
 
 .hero-me h1 {
-    font-size: 65px !important;
+    font-size: 60px !important;
     color: white;
     margin-top: 100px;
     font-weight: 400;
@@ -106,4 +106,23 @@ body {
 .projectsme .col-sm-3 .card:hover {
     box-shadow: 5px 5px 5px #0000006a;
 
+}
+
+.about {
+    height: 600px;
+    width: 100%;
+}
+
+.aboutme {
+    height: 200%;
+    background-image: url("./about.webp");
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    width: 100%;
+
+}
+
+.aboutme h2 {
+    color: white;
+    font-size: 30px;
 }

@@ -25,7 +25,7 @@ const Projects = () => {
     }, []);
     return (
         <>
-            <div className="container mt-5 projectsme mb-5" data-aos="fade-in">
+            <div className="container mt-5 projectsme mb-5" data-aos="fade-up">
                 <h2 className='mt-5 mb-5'>Projects</h2>
 
 
