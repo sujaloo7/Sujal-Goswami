@@ -126,3 +126,21 @@ body {
     color: white;
     font-size: 30px;
 }
+
+.aboutme .card {
+    backdrop-filter: blur(10px) !important;
+    background-color: rgba(60, 60, 60, 0.383) !important;
+    color: white;
+    height: 150px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    border: none;
+    box-shadow: 3px 3px 3px #0000006a;
+
+}
+
+.aboutme .card h5 {
+    font-size: 30px;
+    font-weight: 600;
+}
